@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ev_battery_swap *.css
+recursive-include ev_battery_swap *.csv
+recursive-include ev_battery_swap *.html
+recursive-include ev_battery_swap *.ico
+recursive-include ev_battery_swap *.js
+recursive-include ev_battery_swap *.json
+recursive-include ev_battery_swap *.md
+recursive-include ev_battery_swap *.png
+recursive-include ev_battery_swap *.py
+recursive-include ev_battery_swap *.svg
+recursive-include ev_battery_swap *.txt
+recursive-exclude ev_battery_swap *.pyc
